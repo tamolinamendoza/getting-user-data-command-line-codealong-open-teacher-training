@@ -1,6 +1,6 @@
 
 
-# Getting User Data Command Line
+# Getting User Data in the Command Line
 
 ## Overview
 
