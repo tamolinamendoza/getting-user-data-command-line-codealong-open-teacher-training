@@ -55,7 +55,7 @@ Run your program again - it should work!
 
 
 ### Gets with Numbers
-**Note**: `gets` will always return a string, regardless of whether the user is inputting numbers or letters in the prompt. As such, if you're planning on using the input as an integer or a float, you'll need to convert the input to the correct data type, using `.to_i` for integers and `.to_f` for floats. Check out this "Addition program" that uses `.to_i` to convert the user input to integers for addition:
+**Note**: `gets` will always return a string, regardless of whether the user is inputting numbers or letters in the prompt. As such, if you're planning on using the input as an integer or a float, you'll need to convert the input to the correct data type, using `.to_i` for integers and `.to_f` for floats. In fact, gets is actually short for 'get string'! Check out this "Addition program" that uses `.to_i` to convert the user input to integers for addition:
 
 ```ruby
 puts "Welcome to the addition machine. Please input your first number:"
