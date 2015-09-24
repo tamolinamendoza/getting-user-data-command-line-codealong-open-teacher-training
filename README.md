@@ -65,7 +65,17 @@ number2 = gets.to_i
 sum = number1 + number2
 puts "The sum of the two numbers is " + sum
 ``` 
-We're very close, but this will give us the error `TypeError: String can't be coerced into Fixnum` - that's because we're trying to add together a string and an integer in our last line. We need to convert the integer back to a string using `.to_s` (to string) in order to use concatenation.
+We're very close, but this will give us the error `TypeError: String can't be coerced into Fixnum` - that's because we're trying to add together a string and an integer in our last line. We need to convert the integer back to a string using `.to_s` (to string) in order to use concatenation:
+
+```ruby
+puts "Welcome to the addition machine. Please input your first number:"
+number1 = gets.to_i
+puts "Input your second number:"
+number2 = gets.to_i
+sum = number1 + number2
+puts "The sum of the two numbers is " + sum.to_s
+``` 
+
 
 
 ## Resources
