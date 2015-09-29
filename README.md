@@ -11,7 +11,10 @@ Up to this point, we've been able to create simple Ruby programs by using the `p
 1. Use the `gets` method to get data from the user.
 2. Assign the return value of `gets` to a variable
 3. Understand that `gets` always returns a string.
-3. Show that gets has a trailing space, so we usually use `.chomp` to remove it.
+4. Show that gets has a trailing space, so we usually use `.chomp` to remove it.
+
+## Video
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZED78EO-3Hc" frameborder="0" allowfullscreen></iframe><p><a href="https://www.youtube.com/watch?v=ZED78EO-3Hc">Getting Data from the User in the Command Line</a></p>
 
 ## Using `gets`
 
