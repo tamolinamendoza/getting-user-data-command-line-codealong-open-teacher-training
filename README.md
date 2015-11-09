@@ -18,7 +18,7 @@ Up to this point, we've been able to create simple Ruby programs by using the `p
 
 ## Using `gets`
 
-We're going to create a simple program called `greeter.rb`, that takes in a name from a user, and `puts` a welome phrase based on their input. Start by creating a new ruby file called `greeter.rb` and prompt the user for their name:
+We're going to create a simple program called `greeter.rb`, that takes in a name from a user, and `puts` a welcome phrase based on their input. Start by creating a new ruby file called `greeter.rb` and prompt the user for their name:
 
 ```ruby
 puts "What is your name?"
