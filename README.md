@@ -84,3 +84,5 @@ puts "The sum of the two numbers is " + sum.to_s
 ## Resources
 [RubyLearning: Getting Input](http://rubylearning.com/satishtalim/getting_input.html)
 
+
+<a href='https://learn.co/lessons/getting-user-data-command-line-codealong' data-visibility='hidden'>View this lesson on Learn.co</a>
